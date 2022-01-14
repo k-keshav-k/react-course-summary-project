@@ -1,4 +1,4 @@
-import Card from "../ui/card";
+import Card from "../ui/Card";
 import classes from "./MeetupItem.module.css";
 
 function MeetupItem(props) {
@@ -15,3 +15,10 @@ function MeetupItem(props) {
         </div>
         <div className={classes.actions}>
           <button>To Favorites</button>
+        </div>
+      </Card>
+    </li>
+  );
+}
+
+export default MeetupItem;
