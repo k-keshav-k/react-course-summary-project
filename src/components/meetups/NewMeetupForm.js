@@ -39,7 +39,7 @@ function NewMeetupForm(props) {
           <input type="text" required id="address" ref={addressInputRef}/>
         </div>
         <div className={classes.control}>
-          <label htmlFor="description">Meetup Image</label>
+          <label htmlFor="description">Description</label>
           <textarea id="description" required rows="5" ref={descriptionInputRef}></textarea>
         </div>
         <div className={classes.actions}>
